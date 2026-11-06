@@ -6,7 +6,7 @@
 
 :root {
   /* --- brand / chrome --- */
-  --accent:        #A78BFA;
+  --accent:        #FFF00;
   --accent-press:  #8B5CF6;
   --accent-soft:   rgba(167, 139, 250, 0.12);
   --accent-ring:   rgba(167, 139, 250, 0.40);
