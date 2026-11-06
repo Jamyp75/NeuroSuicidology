@@ -6,10 +6,10 @@
 
 :root {
   /* --- brand / chrome --- */
-  --accent:        #3A66FF;
-  --accent-press:  #2B4FE0;
-  --accent-soft:   rgba(58, 102, 255, 0.12);
-  --accent-ring:   rgba(58, 102, 255, 0.40);
+  --accent:        #A78BFA;
+  --accent-press:  #8B5CF6;
+  --accent-soft:   rgba(167, 139, 250, 0.12);
+  --accent-ring:   rgba(167, 139, 250, 0.40);
 
   /* --- ink (on light glass) --- */
   --ink:        #16181F;
@@ -30,9 +30,9 @@
   --field:        rgba(255, 255, 255, 0.70);
 
   /* --- specimen stage (dark) --- */
-  --stage-1: #1a2236;   /* center glow */
-  --stage-2: #0c1018;   /* mid */
-  --stage-3: #06080d;   /* edge */
+  --stage-1: #292039;   /* center glow */
+  --stage-2: #15111F;   /* mid */
+  --stage-3: #09080D;   /* edge */
   --on-stage:        #E9EDF6;
   --on-stage-soft:   #9aa6bd;
 
