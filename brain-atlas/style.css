@@ -52,7 +52,8 @@
   --r-lg: 18px;
   --r-md: 13px;
   --r-sm: 9px;
-  --font: 'Hanken Grotesk', system-ui, -apple-system, sans-serif;
+  --font: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --heading-font: 'Cormorant Garamond', Georgia, serif; 
   --mono: 'JetBrains Mono', ui-monospace, monospace;
 }
 
