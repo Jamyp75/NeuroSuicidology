@@ -168,7 +168,15 @@ function ControlPanel(props) {
           <Icon name="brain" size={17} sw={1.6} />
         </div>
         <div style={{ flex: 1, lineHeight: 1.1, display: 'flex', alignItems: 'center' }}>
-          <div style={{ fontSize: 15.5, fontWeight: 800, letterSpacing: '-0.01em', color: 'var(--ink)' }}>NeuroSuicidology</div>
+          <div style={{
+  fontFamily: 'var(--heading-font)',
+  fontSize: 23,
+  fontWeight: 600,
+  letterSpacing: '-0.02em',
+  color: 'var(--ink)'
+}}>
+  NeuroSuicidology
+</div>
         </div>
         <Icon name="grip" size={16} style={{ color: 'var(--ink-ghost)' }} />
         <IconBtn name={collapsed ? 'chevDown' : 'chevUp'} title={collapsed ? 'Expand' : 'Collapse'} onClick={() => setCollapsed(!collapsed)} />
