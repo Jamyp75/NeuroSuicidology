@@ -57,8 +57,8 @@ const PALETTES = [
 ];
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
-  "accent": "#3A66FF",
-  "stage": "deep blue",
+  "accent": "#A78BFA",
+  "stage": "purple",
   "surface": "frosted",
   "autorotate": true,
   "glow": 1.06
@@ -68,6 +68,7 @@ const STAGES = {
   'deep blue':  ['#1a2236', '#0c1018', '#06080d', '#E9EDF6', '#9aa6bd'],
   'charcoal':   ['#26262b', '#141417', '#08080a', '#ECECEE', '#9b9ba3'],
   'clinical':   ['#dfe6f0', '#c4cedd', '#aebccf', '#1a2030', '#5a667a'],
+  'purple':     ['#292039', '#15111F', '#09080D', '#EDE7F6', '#B8A9D1'],
 };
 
 function useIsMobile(bp) {
