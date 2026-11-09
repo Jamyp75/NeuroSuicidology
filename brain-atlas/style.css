@@ -30,7 +30,7 @@
   --field:        rgba(255, 255, 255, 0.70);
 
   /* --- specimen stage (dark) --- */
-  --stage-1: #8000FF;   /* center glow */
+  --stage-1: #292039;   /* center glow */
   --stage-2: #15111F;   /* mid */
   --stage-3: #09080D;   /* edge */
   --on-stage:        #E9EDF6;
