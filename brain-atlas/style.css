@@ -20,8 +20,8 @@
   --hair-2:     rgba(16, 20, 32, 0.06);
 
   /* --- light frosted glass --- */
-  --glass:        rgba(249, 250, 252, 0.74);
-  --glass-solid:  rgba(250, 251, 253, 0.96);
+  --glass:        rgba(244, 239, 255, 0.78);
+  --glass-solid:  rgba(250, 247, 255, 0.96);
   --glass-hi:     rgba(255, 255, 255, 0.85);
   --glass-edge:   rgba(255, 255, 255, 0.65);
   --glass-shadow: 0 1px 2px rgba(10, 14, 28, 0.18),
