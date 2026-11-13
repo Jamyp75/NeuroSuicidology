@@ -6,5 +6,12 @@
  */
 
 window.SUICIDOLOGY = {
-  structures: {}
+  structures: {
+    "Amygdaloid body": {
+      function: "Processes emotionally significant information, including threats, and contributes to emotional learning and stress responses.",
+      suicideRelevance: "",
+      evidence: [],
+      relatedSystems: []
+    }
+  }
 };
