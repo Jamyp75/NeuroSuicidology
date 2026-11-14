@@ -14,7 +14,7 @@ function Breadcrumb({ crumb, leaf, color }) {
   );
 }
 
-function SelectionCard({ node, color, catLabel, description, related, lessons, onOpenLesson, onSelect, onRelated, onFocus, onIsolate, onClose, isolated, focused, onClearIsolate, mobile }) {
+function SelectionCard({ node, color, catLabel, description, related, research, lessons, onOpenLesson, onSelect, onRelated, onFocus, onIsolate, onClose, isolated, focused, onClearIsolate, mobile }) {
   if (!node) return null;
   const sideLabel = node.side === 'median' ? 'Midline' : (node.side === 'left' ? 'Left' : 'Right');
   const cardStyle = mobile
