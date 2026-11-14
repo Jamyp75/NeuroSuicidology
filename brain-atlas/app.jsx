@@ -643,7 +643,7 @@ function App() {
       {!consent && <ConsentBanner onAccept={acceptCookies} onDecline={declineCookies} />}
 
       <SelectionCard node={selNode} color={selNode ? PAL[selNode.category] : null}
-        catLabel={selNode ? cats[selNode.category].label : ''} description={description} related={related}
+        catLabel={selNode ? cats[selNode.category].label : ''} description={description} related={related} research={research}
         lessons={selNode ? window.SYS.lessonsForLabel(selNode.label) : []}
         onOpenLesson={(id) => { setSelectedId(null); openLesson(id); }}
         onSelect={selectNode} onRelated={focusNode} onFocus={toggleFocus} onIsolate={isolateNode} onClose={() => setSelectedId(null)}
