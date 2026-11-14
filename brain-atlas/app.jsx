@@ -91,6 +91,7 @@ function App() {
   const cats = window.BRAIN.categories;
   const PAL = window.BRAIN.palette;
   const DESC = window.BRAIN.descriptions;
+  const RESEARCH = window.SUICIDOLOGY.structures;
 
   // ---- build grouped tree (memo) ----
   const groups = React.useMemo(() => {
