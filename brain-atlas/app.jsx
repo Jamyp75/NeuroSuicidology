@@ -435,6 +435,7 @@ function App() {
 
   // ---- selection derived ----
   const selNode = selectedId != null ? nodeById[selectedId] : null;
+  const research = selNode ? RESEARCH[selNode.label] || null : null;
   const related = React.useMemo(() => {
     if (!selNode) return [];
     // only suggest structures that are actually visible on the stage: when a single
